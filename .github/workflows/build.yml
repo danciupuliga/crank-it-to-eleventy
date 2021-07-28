@@ -27,7 +27,7 @@ jobs:
           npm run build
 
       - name: Deploy
-        uses: danciupuliga/deploy-11ty-gh-action@v1.0.1
+        uses: danciupuliga/deploy-11ty-gh-action@v1.0.2
         with:
           source_dir: ./_site
           github_token: ${{ secrets.GITHUB_TOKEN }}
